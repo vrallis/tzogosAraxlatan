@@ -25,7 +25,7 @@ public class Main {
             CommandCleaner.clearGlobalCommands(jda);
         } catch (Exception e) {
             BotLogger.logError("Failed to start the bot: " + e.getMessage());
-            e.printStackTrace();
+            // e.printStackTrace();
         }
     }
 }
